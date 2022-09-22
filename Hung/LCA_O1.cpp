@@ -1,4 +1,4 @@
-int in[gh],nod[gh],deep[gh],m,Rmin[20][gh],Rnod[20][gh];
+int in[gh],nod[2*gh],deep[gh],m,Rmin[20][2*gh],Rnod[20][2*gh];
 void    DFS(int u,int v=0){
 	in[u] = ++m;
 	nod[m] = u;
