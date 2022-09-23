@@ -1,9 +1,0 @@
-+, a/b % c = a % (bc) /b  vs a chia hết b
-
-+, ∑x∈d(n) ϕ(x)=n vs d(n) là tập ước của n
-
-+, x^n ≡ x^(φ(m)+[n mod φ(m)]) mod m vs n >= log2(m)
-
-+, ϕ(n) = (p1-1)*p1^(k1-1) + ... + (pr-1)*pr(kr-1)
-
-+, a^(ϕ(n)) ≡ 1 mod n vs (a,n) = 1
