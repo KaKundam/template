@@ -1,11 +1,9 @@
 int n,lca[30][gh],lv[gh];
 vector <int> adj[gh];
-bool vs[gh];
-void DFS(int i)
+void DFS(int i,int pre=-1)
 {
-    vs[i]=true;
     for (auto u:adj[i])
-    if (!vs[u]){
+    if (u!=pre){
         lv[u]=lv[i]+1;
         lca[0][u]=i;
         DFS(u);
