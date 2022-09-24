@@ -6,7 +6,7 @@ void DFS(int i,int pre=-1)
     if (u!=pre){
         lv[u]=lv[i]+1;
         lca[0][u]=i;
-        DFS(u);
+        DFS(u,i);
     }
 }
 void build_LCA()
